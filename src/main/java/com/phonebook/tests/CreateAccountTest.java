@@ -1,6 +1,7 @@
 package com.phonebook.tests;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -9,35 +10,38 @@ public class CreateAccountTest extends TestBase {
   @BeforeMethod
   public void ensurePrecondition(){
     if(!isElementPresent(By.xpath("//a[.='LOGIN']"))){
-      driver.findElement(By.xpath("//button[.='Sign Out']")).click();
+      click(By.xpath("//button[.='Sign Out']"));
     }
     //click login link
-    driver.findElement(By.xpath("//a[.='LOGIN']")).click();
+    click(By.xpath("//a[.='LOGIN']"));
   }
 
   @Test
-  public void newUserRegistrationPositiveTest(){
+  public void existedUserRegistrationNegativeTest(){
     //enter email field
     // [placeholder='Email']
-    driver.findElement(By.cssSelector("[placeholder='Email']")).click();
-    driver.findElement(By.cssSelector("[placeholder='Email']")).clear();
-    driver.findElement(By.cssSelector("[placeholder='Email']")).sendKeys("pushok88@gmail.com");
-
-
+    type(By.cssSelector("[placeholder='Email']"), "pushok88@gmail.com");
 
     //enter password field
     // [placeholder='Password']
-    driver.findElement(By.cssSelector("[placeholder='Password']")).click();
-    driver.findElement(By.cssSelector("[placeholder='Password']")).clear();
-    driver.findElement(By.cssSelector("[placeholder='Password']")).sendKeys("~Puh-1okkkkk~");
+    type(By.cssSelector("[placeholder='Password']"), "~Puh-1okkkkk~");
 
     //click on Registration
   // by name - registration
+//    driver.findElement(By.cssSelector("registration")).click();
+    click(By.cssSelector("registration"));
+
+    //assert user logged in(check Sign Out button displayed)
+    Assert.assertTrue(isAlertPresent());
+
 
   }
 
 
-
-
-  //assert user logged in(check Sign Out button displayed)
 }
+
+
+
+
+
+

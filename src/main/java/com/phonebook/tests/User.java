@@ -1,5 +1,26 @@
 package com.phonebook.tests;
 
-public record User(String email, String password) {
+public class User {
+  public String email;
+  public String password;
+
+  public String getEmail() {
+    return email;
+  }
+
+  public String getPassword() {
+    return password;
+  }
+
+  public User setEmail(String email) {
+    this.email = email;
+    return this;
+  }
+
+  public User setPassword(String password) {
+    this.password = password;
+    return this;
+  }
+
 
 }

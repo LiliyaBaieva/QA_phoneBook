@@ -1,4 +1,4 @@
-package com.phonebook.tests;
+package tests;
 
 public class User {
   public String email;

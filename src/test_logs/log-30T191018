@@ -1,0 +1,48 @@
+11894 [Test worker] INFO  com.phonebook.TestBase -- Start test openHomePageTest with data: []
+11983 [Test worker] INFO  com.phonebook.TestBase -- PASSED: openHomePageTest
+11983 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+11983 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+11990 [Test worker] INFO  com.phonebook.TestBase -- Start test isPhonebookLogoPresent with data: []
+12054 [Test worker] INFO  com.phonebook.TestBase -- PASSED: isPhonebookLogoPresent
+12055 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+12055 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+12059 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsAboutButtonPresent with data: []
+12100 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsAboutButtonPresent
+12100 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+12100 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+12102 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsHomeLinkPresent with data: []
+12143 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsHomeLinkPresent
+12144 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+12144 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+12145 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsLoginButtonPresent with data: []
+12168 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsLoginButtonPresent
+12169 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+12169 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+12171 [Test worker] INFO  com.phonebook.TestBase -- Start test loginPositiveTest with data: []
+15358 [Test worker] INFO  com.phonebook.TestBase -- PASSED: loginPositiveTest
+15359 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+15359 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+15362 [Test worker] INFO  com.phonebook.TestBase -- Start test addContactPositiveTest with data: []
+30098 [Test worker] INFO  com.phonebook.TestBase -- PASSED: addContactPositiveTest
+30099 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+30099 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+30101 [Test worker] INFO  com.phonebook.TestBase -- Start test removeContactTest with data: []
+45007 [Test worker] INFO  com.phonebook.TestBase -- PASSED: removeContactTest
+45008 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+45008 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+45101 [AsyncHttpClient-1-4] WARN  o.a.netty.handler.WebSocketHandler -- onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)

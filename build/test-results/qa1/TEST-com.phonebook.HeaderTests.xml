@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.HeaderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-06-30T17:10:29" hostname="LAPTOP-LILIIA" time="0.176">
+  <properties/>
+  <testcase name="isPhonebookLogoPresent" classname="com.phonebook.HeaderTests" time="0.062"/>
+  <testcase name="verifyIsAboutButtonPresent" classname="com.phonebook.HeaderTests" time="0.039"/>
+  <testcase name="verifyIsHomeLinkPresent" classname="com.phonebook.HeaderTests" time="0.039"/>
+  <testcase name="verifyIsLoginButtonPresent" classname="com.phonebook.HeaderTests" time="0.022"/>
+  <system-out><![CDATA[19:10:29.786 [Test worker] INFO  com.phonebook.TestBase -- Start test isPhonebookLogoPresent with data: []
+19:10:29.850 [Test worker] INFO  com.phonebook.TestBase -- PASSED: isPhonebookLogoPresent
+19:10:29.851 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+19:10:29.851 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+19:10:29.855 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsAboutButtonPresent with data: []
+19:10:29.896 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsAboutButtonPresent
+19:10:29.896 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+19:10:29.896 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+19:10:29.898 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsHomeLinkPresent with data: []
+19:10:29.939 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsHomeLinkPresent
+19:10:29.940 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+19:10:29.940 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+19:10:29.941 [Test worker] INFO  com.phonebook.TestBase -- Start test verifyIsLoginButtonPresent with data: []
+19:10:29.964 [Test worker] INFO  com.phonebook.TestBase -- PASSED: verifyIsLoginButtonPresent
+19:10:29.965 [Test worker] INFO  com.phonebook.TestBase -- Stop test
+19:10:29.965 [Test worker] INFO  com.phonebook.TestBase -- ===================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

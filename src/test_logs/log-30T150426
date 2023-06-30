@@ -1,0 +1,7 @@
+756  [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\Lilu\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+4907 [main] INFO  com.phonebook.TestBase -- Start test openHomePageTest with data: []
+15292 [main] INFO  com.phonebook.TestBase -- FAILED: openHomePageTest Screenshot: C:\PROJECTS\qa\QA_phoneBook\screenshots\screen1688130281468.png
+15292 [main] INFO  com.phonebook.TestBase -- Stop test
+15292 [main] INFO  com.phonebook.TestBase -- ===================================
